@@ -40,6 +40,9 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+"ack
+Plug 'mileszs/ack.vim'
+
 " airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -49,6 +52,7 @@ Plug 'vim-ruby/vim-ruby'
 
 " git?
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter
 
 call plug#end()
 
@@ -59,8 +63,9 @@ map <Leader>f :Files <CR>
 map <Leader>d :NERDTree <CR>
 map <Leader>n :nohlsearch <CR>
 
+map <Leader>te :tabedit
+
 map <Leader>g :Git
 map <Leader>gs :Git status <CR>
 map <Leader>gd :Git diff <CR>
 map <Leader>te :tabedit
-
