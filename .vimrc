@@ -69,3 +69,6 @@ map <Leader>g :Git
 map <Leader>gs :Git status <CR>
 map <Leader>gd :Git diff <CR>
 map <Leader>te :tabedit
+
+"python
+map <Leader>p :!python3 %:t <CR>
