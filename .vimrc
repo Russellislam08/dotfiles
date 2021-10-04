@@ -60,6 +60,7 @@ colorscheme onehalfdark
 
 " mappings
 map <Leader>f :Files <CR>
+map <Leader>b :Buffer <CR>
 map <Leader>d :NERDTree <CR>
 map <Leader>n :nohlsearch <CR>
 
