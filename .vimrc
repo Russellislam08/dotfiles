@@ -73,3 +73,7 @@ map <Leader>te :tabedit
 
 "python
 map <Leader>p :!python3 %:t <CR>
+
+"tabm
+map <Leader>+1 :tabm +1 <CR>
+map <Leader>-1 :tabm -1 <CR>
