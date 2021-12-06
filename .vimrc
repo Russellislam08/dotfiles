@@ -77,3 +77,14 @@ map <Leader>p :!python3 %:t <CR>
 "tabm
 map <Leader>+1 :tabm +1 <CR>
 map <Leader>-1 :tabm -1 <CR>
+
+" to navigate tabs easier
+map W gT
+map E gt
+
+" fzf
+let g:fzf_layout = { 'down': '~40%' }
+left g:fzf_history_dir = 1
+
+" nerd commenter
+let NERDSpaceDelims=1
