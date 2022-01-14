@@ -25,7 +25,11 @@ set wrap "Wrap lines
 " smart indent
 set smartindent
 
+" highlight search
 set hlsearch
+
+" make vsplit split on the right
+set splitright
 
 call plug#begin()
 
@@ -81,6 +85,9 @@ map <Leader>-1 :tabm -1 <CR>
 " to navigate tabs easier
 map W gT
 map E gt
+
+" commands
+command Vrc vsplit ~/.vimrc
 
 " fzf
 let g:fzf_layout = { 'down': '~40%' }
